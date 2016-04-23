@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="nqn.app.martinromero.example.com.myappmr.MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:textStyle="italic"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:password="true"
+    />
+    <Button
+        android:id="@+id/btn_ini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonIniciar"
+    />
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonRegistrar"
+    />
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_toast"
+    />
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/us"
+    />
+    <TextView
+        android:id="@+id/text_sensor"
+        android:text="Hola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+    />
+
+
+
+</LinearLayout>

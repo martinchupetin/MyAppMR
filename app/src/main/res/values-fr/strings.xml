@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyAppMR</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">une entrée utilisateur...</string>
+    <string name="password">Ingrese Password...</string>
+    <string name="botonIniciar">Iniciar Sesion</string>
+    <string name="botonRegistrar">Registrarme</string>
+    <string name="texto">Hola</string>
+    <string name="text_toast">Lanzar Cuadro</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="btn_ret">Volver</string>
+    <string name="text_cambia">Aca cambia el texto</string>
+    <string name="us">Usuario</string>
+</resources>
