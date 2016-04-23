@@ -61,7 +61,7 @@ public class SecondActivity extends AppCompatActivity implements OnClickListener
             texto.setText(dato);
         }
 
-        //aca manejo mi lista personalizada
+        //aca manejo mi lista personalizada de temas
         Bandas bandas_data[] = new Bandas[]{
                 new Bandas(R.drawable.ic_launcher,"ColdPlay"),
                 new Bandas(R.drawable.ic_launcher,"Limp Bizkit"),
